@@ -52,6 +52,7 @@ fun DisplayData(list:List<String>,padding:PaddingValues){
             .padding(padding)) {
         LazyColumn(
             modifier = Modifier
+
                 .fillMaxSize()) {
             items(list.size){index->
                 Text(
